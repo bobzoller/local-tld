@@ -5,11 +5,13 @@
   "main": "lib/local-tld.js",
   "dependencies": {
     "http-proxy": "~0.8.7",
-    "node-windows": "0.1.x",
     "chokidar": "0.6.x",
     "optimist": "0.3.x",
     "consoleplusplus": "1.0.x",
     "native-dns": "0.4.x"
+  },
+  "optionalDependencies": {
+    "node-windows": "0.1.x"
   },
   "bin": {
     "local-tld": "./bin/local-tld.js"
