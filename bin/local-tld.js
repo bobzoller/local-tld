@@ -71,7 +71,7 @@ switch (argv._[0]) {
     break;
   case "remove":
 
-    if (!argv._[1] || !argv._[2]) {
+    if (!argv._[1]) {
 
       console.log([
         "Please enter a port",
