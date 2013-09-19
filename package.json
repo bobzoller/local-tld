@@ -5,24 +5,20 @@
   "main": "lib/local-tld.js",
   "dependencies": {
     "http-proxy": "~0.8.7",
-    "node-windows": "git://github.com/mdlawson/node-windows.git",
+    "node-windows": "0.1.x",
     "chokidar": "0.6.x",
     "optimist": "0.3.x",
     "consoleplusplus": "1.0.x",
     "native-dns": "0.4.x"
   },
   "bin": {
-    "local-tld": "./lib/local-tld.js"
+    "local-tld": "./bin/local-tld.js"
   },
   "devDependencies": {},
   "repository": "https://github.com:hoodiehq/local-tld",
   "keywords": [
     "tld",
     "pow"
-  ],
-  "os": [
-    "darwin",
-    "win32"
   ],
   "author": "Jan Lehnardt <jan@apache.org>",
   "license": "Apache 2.0",
