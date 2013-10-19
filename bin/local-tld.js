@@ -85,7 +85,7 @@ switch (argv._[0]) {
     config.remove(argv._[1]);
     break;
   case "start":
-    process.env["LOCAL_TLD_CONF"] = config.file;
+    process.env["LOCAL_TLD_CONF"] = config.dir;
     var out = fs.openSync(path.join(__dirname,"out.log"), "w");
     var err = fs.openSync(path.join(__dirname,"err.log"), "w");
     var child = spawn("node",[service.file],{
